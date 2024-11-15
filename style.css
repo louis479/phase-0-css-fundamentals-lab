@@ -1,5 +1,97 @@
-body {
-  width: 100%;
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+header h1 {
+  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+ 
+nav a:hover {
+  text-decoration: underline;
+}
+
+#featured-property {
+  max-width: 800px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#featured-property img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#featured-property figcaption {
+  font-size: 12px;
+  
+  color: gray;
+  margin-top: 5px;
+}
+
+#featured-property p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 15px 0;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: red;
+}
+
+#details div {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+#details h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#details a {
+  display: block;
+  margin-top: 5px;
+}
+
+#details a:hover {
+  text-decoration: underline;
 }
